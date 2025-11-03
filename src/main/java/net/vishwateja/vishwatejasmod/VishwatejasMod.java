@@ -12,6 +12,6 @@ public class VishwatejasMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        LOGGER.info("Hello Fabric world! VishwatejasMod has been initialized!");
 	}
 }
