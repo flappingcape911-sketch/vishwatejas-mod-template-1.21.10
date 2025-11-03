@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vishwatejas-mod",
+	"version": "${version}",
+	"name": "vishwatejas mod",
+	"description": "this is my first ever modding in minecraft please support me",
+	"authors": [
+		"vishwateja"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vishwatejas-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vishwateja.vishwatejasmod.VishwatejasMod"
+		],
+      "Client": [
+        "net.vishwateja.vishwatejasmod.VishwatejasModClient"
+      ],
+		"fabric-datagen": [
+			"net.vishwateja.vishwatejasmod.VishwatejasModDataGenerator"
+		]
+	},
+	"mixins": [
+		"vishwatejas-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
