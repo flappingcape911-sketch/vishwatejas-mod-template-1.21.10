@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "VishwatejasMod:item/giant_zombie_spawner"
+  }
+}
